@@ -1,4 +1,3 @@
-// CreatePost.js
 import React, { useState } from 'react';
 import './CreatePost.css';
 import { supabase } from '../client.js';
@@ -25,9 +24,8 @@ const CreatePost = () => {
                 throw error;
             }
     
-            console.log('Upload response:', data); // Log the data object
-            const imageUrl = data.path; // Retrieve the path from the upload response
-            // Construct the image URL using the public URL of the storage bucket
+            console.log('Upload response:', data); 
+            const imageUrl = data.path; 
             const publicUrl = `https://yamyrkqwwnamalezwryc.supabase.co/storage/v1/object/public/listings/${imageUrl}`;
             setPost(prev => ({ ...prev, image_url: publicUrl }));
         } catch (error) {

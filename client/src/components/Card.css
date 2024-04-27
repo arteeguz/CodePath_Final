@@ -1,10 +1,10 @@
 .Card {
     border: 2px solid #6fad6f;
-    padding: 10px; /* Adjusted padding */
-    margin-bottom: 10px; /* Adjusted margin */
+    padding: 10px;
+    margin-bottom: 10px; 
     border-radius: 8px;
     background-color: #f5f5f5;
-    width: 250px; /* Adjusted width */
+    width: 250px;
 }
 
   
