@@ -1,0 +1,57 @@
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+  }
+
+label,
+input,
+select {
+    font-size: 24px; 
+    color: #333; 
+}
+
+  input[type='text'],
+  input[type='number'],
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  input[type='file'] {
+    margin-top: 10px;
+    color: #333;
+  }
+  
+  input[type='submit'] {
+    background-color: #6fad6f;
+    color: #fff;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px; 
+    padding: 15px 30px;
+  }
+  
+  input[type='submit']:hover {
+    background-color: #5e9c5e;
+  }
+  
+  p {
+    margin-top: 5px;
+    color: #555;
+  }
+  
+  legend {
+    color: black;
+  }
